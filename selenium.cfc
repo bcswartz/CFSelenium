@@ -16,8 +16,8 @@
 	limitations under the License.
 	*/
 
-	public any function init (string host = "localhost", numeric port = 4444, 
-		numeric executionDelay = 200, string seleniumJarPath = "/cfselenium/Selenium-RC/selenium-server-standalone-2.2.0.jar", boolean verbose = false, string seleniumServerArguments = "",
+	public any function init (string host = "localhost", numeric port = 4444,
+		numeric executionDelay = 200, string seleniumJarPath = "/cfselenium/Selenium-RC/selenium-server-standalone-2.24.1.jar", boolean verbose = false, string seleniumServerArguments = "",
 		numeric waitTimeout = 30000) {
 
 		structAppend(variables,arguments,true);
